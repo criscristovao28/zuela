@@ -3,7 +3,44 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zuela.api", "Zuela.api\Zuela.api.csproj", "{D4497CE8-F33A-4081-8380-4064CDAFC1FB}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "zuela.app", "zuela.app\", "{DCBB423D-4F6D-4ABC-A994-539C7070C1D1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57109"
+		Debug.AspNetCompiler.PhysicalPath = "zuela.app\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57109\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57109"
+		Release.AspNetCompiler.PhysicalPath = "zuela.app\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57109\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57109"
+		SlnRelativePath = "zuela.app\"
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4497CE8-F33A-4081-8380-4064CDAFC1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4497CE8-F33A-4081-8380-4064CDAFC1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4497CE8-F33A-4081-8380-4064CDAFC1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4497CE8-F33A-4081-8380-4064CDAFC1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCBB423D-4F6D-4ABC-A994-539C7070C1D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBB423D-4F6D-4ABC-A994-539C7070C1D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCBB423D-4F6D-4ABC-A994-539C7070C1D1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCBB423D-4F6D-4ABC-A994-539C7070C1D1}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
